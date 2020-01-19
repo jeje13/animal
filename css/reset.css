@@ -1,0 +1,32 @@
+@chrset "utf-8";
+*{
+    font-family:  'Noto Sans KR', sans-serif;
+padding: 0;
+margin: 0 auto;
+box-sizing: border-box;font-family:'jo',serif;}
+
+.grid01{width: 80px;padding-left: 10px;padding-right:10px;}
+.grid02{width: 160px;padding-left: 10px;padding-right:10px;}
+.grid03{width: 240px;padding-left: 10px;padding-right:10px;}
+.grid04{width: 320px;padding-left: 10px;padding-right:10px;}
+.grid05{width: 400px;padding-left: 10px;padding-right:10px;}
+.grid06{width: 480px;padding-left: 10px;padding-right:10px;}
+.grid07{width: 560px;padding-left: 10px;padding-right:10px;}
+.grid08{width: 640px;padding-left: 10px;padding-right:10px;}
+.grid09{width: 720px;padding-left: 10px;padding-right:10px;}
+.grid10{width: 800px;padding-left: 10px;padding-right:10px;}
+.grid11{width: 880px;padding-left: 10px;padding-right:10px;}
+.grid12{width: 960px;padding-left: 10px;padding-right:10px;}
+.grid13{width: 1040px;padding-left: 10px;padding-right:10px;}
+.grid14{width: 1120px;padding-left: 10px;padding-right:10px;}
+.grid15{width: 1200px;padding-left: 10px;padding-right:10px;}
+.grid16{width: 1280px;padding-left: 10px;padding-right:10px;}
+/* font-family:  'Noto Sans KR', sans-serif;작은폰트 */
+body,header,section,nav,aside,footer,address,div,span,img,p,h1,h2,h3,h4,h5,
+h6,ul,li,ol,dl,dt,dd,a,figure,figcaption{margin: 0;padding: 0;border: none;box-sizing: border-box;}
+form,button,input,select,option{margin: 0;padding: 0;box-sizing: border-box;}
+a,a:hover{color: #333;}
+a,address{text-decoration: none;}
+ul,li,ol{list-style: none;}
+
+.clearfix::after{display: block;content: "";clear: both;}

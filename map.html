@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ANIMAL RIGHTS</title>
+    <!-- ==파비콘== -->
+    <link rel="shortcut icon" href="images/favicon01.png">
+    <link rel="apple-touch-icon-precomposed" href="images/favicon01.png">
+    <!-- ==폰트== -->
+    <link href="font/jo.ttf" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+    <!-- ====스크립트 -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/map_custom.js"></script>
+    <script>
+  
+     </script>
+    <!-- ====스타일 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/map.css">
+    <style>
+     #top_btn{position: fixed;bottom: 50px;right: 100px; width: 50px;height: 50px;border-radius: 25px;background: #ccb59c;display:inline-block;text-align: center;}
+     #top_btn>a{color: white; }</style>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header" class="grid16">
+            <div id="header_top"class="grid16">
+                <div id="main_txt" class="grid04">
+                    <p class="font20 jo">ANIMAL</p>
+                    <h1 class="jo">RIGHTS</h1>
+                    <p class="font20 jo">당신의 반려동물이 되게 해주세요.</p>
+                </div> 
+                <div id="menu"class="grid06">
+                    <ul>
+                        <li><a href="#" class="no">Login</a></li>
+                        <li><a href="#" class="no">Register</a></li>
+                        <li><a href="#" class="no">Mypage</a></li>
+                        <li><a href="#" class="no">Search</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header_bottom">
+                    <ul>
+                    <li><a href="index.html" class="no">홈</a></li>
+                    <li><a href="main.html" class="no">보호소안내</a></li>
+                    <li><a href="#" class="no">입양안내</a></li>
+                    <li><a href="map.html" class="no">상담문의&방문</a></li>
+                    </ul>       
+            </div>
+        </header>
+        <section id="banner"  class="grid10">
+            <div id="banner_img">
+                <img src="images/cat_01.jpg" alt="banner01" >
+            </div>
+            <div id="banner_txt">
+                <h2 class="no">상담문의 & 방문</h2>
+                <p class="jo">ANIMAL RIGHTS 위치 및 방문 상담 예약</p>
+            </div>
+        </section>
+        <section id="notice" class="section_box">
+            <h2 class="no sec_tit">상담문의</h2>
+            <form action="#" method="GET" class="grid10">
+                <div>
+                    <label for="name" class="grid01 no">NAME</label>
+                    <input type="text" name="user_name" id="name" class="grid04 place" placeholder="이름을 적어주세요">
+                </div>
+                <div>
+                    <label for="phone" class="grid01 no">PHONE</label>
+                    <input type="text" name="user_phone" id="phone" class="grid04 place"  placeholder="전화번호를 적어주세요">
+                </div>
+                <div>
+                    <label for="select" class="grid01 no">SELECT</label>
+                    <select name="user_select" id="select" class="grid04 ">
+                        <option value="#">==카테고리==</option>
+                        <option value="qna">입양문의</option>
+                        <option value="fnq">후원문의</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="memo" class="grid01 no">MEMO</label>
+                    <textarea name="user_memo" id="memo" placeholder="카테고리 선택 후 문의사항을 적어주세요" class="grid04 place autosize" ></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="보내기" class="grid02" id="sub">
+                </div>
+            </form>
+        </section>
+        <section id="map" class="gird10" class="section_box">
+            <h2 class="no sec_tit">찾아오시는 길</h2>
+            <p class="jo">서울시 관악구 신림동</p>
+            <p class="jo">2호선 신림역 7번출구 르네상스 건물 / ☎02-555-5555</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1582.9949412749863!2d126.92899965824046!3d37.48456512333358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDI5JzA0LjQiTiAxMjbCsDU1JzQ4LjMiRQ!5e0!3m2!1sko!2skr!4v1576138945680!5m2!1sko!2skr" width="780" height="330" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+        <footer id="footer">
+                <div id="footer_tit">
+                    <p class="jo">ANIMAL</p>
+                    <p class="jo">RIGHTS</p>
+                </div>
+                <div id="footer_txt">
+                    <p class="jo">당신의 반려동물이 되게 해주세요.</p>
+                    <p class="jo">서울시 관악구 신림동<br>
+                            02-555-5555</p>
+                </div>
+        </footer>
+        <div id="top_btn"><a href="#header">▲<br>top</a></div>
+    </div>
+</body>
+</html>

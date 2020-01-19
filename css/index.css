@@ -1,0 +1,11 @@
+@charset "utf-8";
+.jo{font-family: '조선일보명조',sans-serif;font-weight:200;}
+     .font20{font-size: 24px;font-weight: bold;color:#996b3a;}
+ #wrap{width: 1280px;margin: 0 auto;display: flex;flex-flow:row; justify-content:space-around;align-items: center;overflow: hidden;}
+#main_tit{text-align: center;}
+#main_tit>#main_txt>p{padding:5px 0;}
+#main_tit>#main_txt>p:nth-child(2){font-size: 80px;color:#996b3a;font-weight: bolder}
+#main_tit>button{padding: 10px 20px;margin:30px 0;background: #996b3a;border:1px solid #996b3a;border-radius: 5px;}
+#main_tit>button:hover{background: white;}
+#main_tit>button:hover>a{ color:#996b3a;}
+#main_tit>button>a{color:white;}

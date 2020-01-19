@@ -1,0 +1,83 @@
+@charset "utf-8";
+.jo{font-family: '조선일보명조',sans-serif;font-weight:200;}
+     .no{font-family:  'Noto Sans KR', sans-serif;}
+
+         .swiper-container {
+        width: 100%;
+        height: 100%;
+        }
+        .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        }
+        .font20{font-size: 16px;font-weight: 400;}
+        
+         #wrap{margin: 0 auto;display: flex;flex-flow: column;align-items: center;}
+         #header{width: 100%;display: flex;flex-flow: column nowrap;align-items: center;padding:0;}
+         #header>#header_top{display: flex; justify-content:flex-end;}
+         #header>#header_top>#main_txt{display: flex;flex-flow: column nowrap; align-items: center;padding:30px 0 20px 0;color:#996b3a;font-weight: bold;}
+         #header>#header_top>#main_txt>h1{font-size: 50px;font-weight: bold;}
+         #header>#header_top>#main_txt>p{font-weight: 600;}
+         #header>#header_top>#menu>ul{display: flex;justify-content: center;}
+         #header>#header_top>#menu>ul>li{padding:20px 6px 0;}
+         #header>#header_top>#menu>ul>li>a{font-size: 12px;}
+         #header>#header_top>#tgl_btn{display: none;}
+         #header>#header_bottom{background: #996b3a;width: 100%;}
+         #header>#header_bottom>ul{display: flex;justify-content: center;}    
+         #header>#header_bottom>ul>li{padding:6px 12px;}     
+         #header>#header_bottom>ul>li>a{font-size: 14px;font-weight: 400;color: white;}
+
+         #banner{border-bottom: 2px solid #996b3a;padding:0;}
+         #banner .swiper-slide{position: relative;width: 100%;}
+         #banner #banner_img{width: 100%;display: flex;}
+         #banner #banner_txt{position: absolute;left: 140px;top: 50%;transform: translateY(-50%);text-align: left;}
+         #banner #banner_txt>p{font-size:24px;color: #444444;font-weight: 400;padding: 20px 4px;}
+         #banner #banner_txt>h1{font-size: 54px;color: #996b3a;font-weight: bolder;} 
+         
+         .section{display: flex;flex-flow:column wrap;align-items:center;}
+         .sec_h2{width: 100%;text-align: center; padding:74px 0 7px;border-bottom:1px solid #996b3a;font-weight: bolder;font-size: 24px;color:#996b3a;}
+         .sec_p{padding:10px 0 27px;text-align: center;font-weight: 400;line-height: 22px;font-size:16px;}
+         .sec_img{display: flex;flex-flow: row wrap;justify-content: center;width: 100%;}
+         .sec_img>.list{width: 25%;}
+         .sec_img>.list>a{width: 100%;overflow: hidden;}
+         .sec_img>.list>a>img{width: 100%;height: 180px;}
+         .sec_img>.list>a>img:hover{opacity: 0.8;transform: scale(1.01);box-shadow:2px 2px 2px  rgba(100,100,100,0.5);}
+
+         #bo .list_txt{text-align: center;padding:10px 0 24px;}
+         #bo .list_txt>h3{font-size: 16px;}
+         #bo .list_txt>p{font-size: 12px;}
+
+         #bo>#search{display: flex; flex-flow: nowrap; justify-content:space-around; border:1px solid #996b3a;margin:50px 0 5px;}
+         #bo>#search>input{width: 70%;border: none;padding:4px 0;width: 80%;}
+         #bo>#search>input::placeholder{color:#996b3a;opacity: 0.5;}
+         #bo>#search>button{width: 30%;border:none;background: none;padding:4px 0 ;cursor: pointer;color:#996b3a;font-weight: bold;}
+
+         #num_btn>#num_btn_list>li{display: inline-block;cursor: pointer;color:#996b3a;padding: 0 10px ;}
+         #num_btn>#num_btn_list>li:hover{color:#444444}
+
+         #like{margin-bottom:10px ;}
+         #like>.sec_img>.list{padding-bottom: 10px;}
+         
+
+
+         footer{background: #996b3a;width: 100%;overflow: hidden;display: flex;justify-content: center;align-items: center;padding: 20px 0;color: white;}
+         footer>#footer_tit{display: flex;flex-flow: column nowrap;justify-content: center;align-items: center;}
+         footer>#footer_tit>p:first-child{font-size: 16px;}
+         footer>#footer_tit>p:last-child{font-size: 40px;}
+         footer>#footer_txt{margin-left:30px;}
+         footer>#footer_txt>p:first-child{font-size: 18px;padding:3px 0;}
+         footer>#footer_txt>p:last-child{font-size: 14px;line-height: 16px;}
